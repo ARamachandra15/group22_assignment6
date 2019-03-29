@@ -79,7 +79,9 @@ class AdventurersTableViewController: UITableViewController, AddAdventurerDelega
         adv.setValue(profession, forKey: "profession")
         adv.setValue(level, forKey: "level")
         adv.setValue(HP, forKey: "totalHP")
+        
         adv.setValue(attack, forKey: "attack")
+        adv.setValue(HP, forKey: "currentHP")
         
         do {
             try managedContext.save()
