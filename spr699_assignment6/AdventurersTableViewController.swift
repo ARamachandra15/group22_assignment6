@@ -86,8 +86,6 @@ class AdventurersTableViewController: UITableViewController, AddAdventurerDelega
             
             list.append(adv)
             tableView.reloadData()
-            s
-            print("is saved")
         } catch let error as NSError {
             print("Could not save. \(error), \(error.userInfo)")
         } catch {
@@ -98,6 +96,11 @@ class AdventurersTableViewController: UITableViewController, AddAdventurerDelega
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? AddViewController {
             destination.delegate = self
+        }
+        if let destination = segue.destination as? QuestViewController{
+            let indexPath = tableView.indexPathForSelectedRow
+            let num = indexPath!.row
+            destination.adv = list[num]
         }
     }
 }

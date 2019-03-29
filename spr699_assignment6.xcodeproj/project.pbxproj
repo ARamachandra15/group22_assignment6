@@ -15,6 +15,8 @@
 		699CDD0F2247E57D00290245 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699CDD0E2247E57D00290245 /* AddViewController.swift */; };
 		699CDD112247F39900290245 /* AdventurersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699CDD102247F39900290245 /* AdventurersTableViewController.swift */; };
 		699CDD1D224ABA8D00290245 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699CDD1C224ABA8D00290245 /* TableViewCell.swift */; };
+		ED3986E8224E9A9B005ABC02 /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3986E7224E9A9B005ABC02 /* timer.swift */; };
+		ED3986EA224E9D98005ABC02 /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3986E9224E9D98005ABC02 /* QuestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		699CDD0E2247E57D00290245 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		699CDD102247F39900290245 /* AdventurersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventurersTableViewController.swift; sourceTree = "<group>"; };
 		699CDD1C224ABA8D00290245 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		ED3986E7224E9A9B005ABC02 /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
+		ED3986E9224E9D98005ABC02 /* QuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			children = (
 				62EFF0CE22390926001EAE31 /* AppDelegate.swift */,
 				62EFF0D222390926001EAE31 /* Main.storyboard */,
+				ED3986E9224E9D98005ABC02 /* QuestViewController.swift */,
+				ED3986E7224E9A9B005ABC02 /* timer.swift */,
 				62EFF0D822390928001EAE31 /* Assets.xcassets */,
 				62EFF0DA22390928001EAE31 /* LaunchScreen.storyboard */,
 				62EFF0DD22390928001EAE31 /* Info.plist */,
@@ -145,8 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				699CDD1D224ABA8D00290245 /* TableViewCell.swift in Sources */,
+				ED3986EA224E9D98005ABC02 /* QuestViewController.swift in Sources */,
 				62EFF0D722390926001EAE31 /* spr699_assignment6.xcdatamodeld in Sources */,
 				699CDD112247F39900290245 /* AdventurersTableViewController.swift in Sources */,
+				ED3986E8224E9A9B005ABC02 /* timer.swift in Sources */,
 				62EFF0CF22390926001EAE31 /* AppDelegate.swift in Sources */,
 				699CDD0F2247E57D00290245 /* AddViewController.swift in Sources */,
 			);
