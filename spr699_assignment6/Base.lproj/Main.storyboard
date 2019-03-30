@@ -378,7 +378,7 @@
                     <connections>
                         <outlet property="advAttack" destination="b05-OF-FwF" id="9Dp-ch-Rw3"/>
                         <outlet property="advClass" destination="5VE-MG-KcP" id="NVd-vU-88L"/>
-                        <outlet property="advHP" destination="ZBy-34-lYU" id="uHJ-ef-u9l"/>
+                        <outlet property="advHP" destination="GCK-Gz-sqf" id="EID-Vy-pYT"/>
                         <outlet property="advLevel" destination="ZBy-34-lYU" id="F1q-0Z-diz"/>
                         <outlet property="advName" destination="vi4-ei-RaA" id="zcf-y9-dW6"/>
                         <outlet property="portrait" destination="ni9-QQ-dls" id="Cfo-bh-iAV"/>

@@ -30,8 +30,8 @@ class AddViewController: UIViewController {
         let profession = classText.text ?? ""
         
         if (name != "") && (profession != ""){
-            let hp = Int.random(in: 0 ... 10)
-            let att = Float.random(in: 0 ... 10)
+            let hp = Int.random(in: 65 ... 100)
+            let att = Float.random(in: 1 ... 10)
             delegate?.addAdventurer(name: name, profession: profession, level: 1, HP: hp, attack: att)
             navigationController?.popViewController(animated: true)
         }
